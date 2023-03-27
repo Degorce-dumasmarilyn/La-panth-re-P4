@@ -193,6 +193,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -811,6 +812,7 @@ a[data-lightbox]:hover img {
     color: #FFFFFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
+    text-align: center;
     left: 15px;
     right: 15px;
     bottom: 5px;
@@ -1076,7 +1078,7 @@ h4 {
         justify-content: center;
     }
 }
-@media   only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media  only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
