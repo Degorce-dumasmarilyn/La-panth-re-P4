@@ -191,7 +191,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background: rgb(231, 210, 210);
     overflow-x: hidden;
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
@@ -386,7 +386,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(231, 210, 210)!important;
 }
 
 .d-bloc .panel button:hover,
@@ -476,6 +476,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    margin-bottom: 60px;
 }
 
 .navbar {
@@ -553,12 +554,13 @@ a:hover {
     z-index: 2;
 }
 
-
+/* remplacement des textes images par des textes*/
 .remplacement_titre {
     max-width: 613px;
     margin: 0 auto;
     font-size: 22px;
 }
+/* remplacement des textes images par des textes*/
 .remplacement_citation {
     max-width: 562px;
     color: rgb(90, 90, 90);
@@ -568,6 +570,7 @@ a:hover {
     margin: 0 auto;
     padding: 0;
 }
+/* auteur de la citation*/
 .remplacement_auteur {
     color: rgb(90, 90, 90);
     font-style: normal;
@@ -581,18 +584,20 @@ a:hover {
 #bloc-5-cta h2 {
     margin-bottom: 50px;
 }
-
+/* footer navigation */
 footer nav{
     color:rgb(80, 48, 48);
 }
-
+/*footer navigation lien*/
 footer nav a{
     color:rgb(55, 55, 55)!important;
 }
-
+/* modification couleur H1/texte dans le header page contact */
 .access_coul{
     color: rgb(80, 48, 48) !important;
 }
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -1016,13 +1021,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #c27956;
-    color: #1E1E1E!important;
+    background: #94583D;
+    color: rgb(80, 48, 48)!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #503030!important;
+    color: rgb(30, 30, 30)!important;
 }
 
 .ltc-white {
